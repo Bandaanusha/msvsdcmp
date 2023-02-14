@@ -45,3 +45,9 @@ A comparator is a device that compares two analog inputs and outputs a digital s
 
 <img width="782" alt="hys4" src="https://user-images.githubusercontent.com/62790565/218527127-b1167d6c-71f5-4905-b9bc-1c5ec938dd61.png">
 
+```
+VTH is hysteresis voltage. It is the difference between the higher-level trip value (VH) and the lower-level trip value (VL)
+VTH= VH - VL
+VTH defines the width of hysteresis. At Ihyst=10uA it has more hysteresis compared with the Ihyst=0.2 or 0.8 uA
+```
+
