@@ -26,7 +26,7 @@ A comparator is a device that compares two analog inputs and outputs a digital s
 
 ## Pre-Layout Simulation
 
-![Screenshot from 2023-02-13 16-08-54](https://user-images.githubusercontent.com/62790565/218639648-1e72332e-9e22-404d-b548-cd3ee67e491d.png)
+![Screenshot from 2023-02-14 10-24-03](https://user-images.githubusercontent.com/62790565/218642830-1a0673da-47f3-480c-9bae-fd097968492c.png)
 
 
 - At Ihsyst = 0 circuit behave like a comparator with no hysteresis. The output voltage VOUT changes eachtime INP crosses INN
