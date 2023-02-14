@@ -10,6 +10,20 @@ A comparator is a device that compares two analog inputs and outputs a digital s
 
 ![circuitschm](https://user-images.githubusercontent.com/62790565/218436868-936908e6-c0dc-4b51-8517-f5e12ccae5d3.png)
 
+### Inputs to the circuit
+
+- VCC - 3.3 v
+- GND - Ground
+- INN - Negative differential input
+- INP - Positive differential input
+- EN - Enable pin
+- Ihyst - Current to control hysteresis
+
+### Output of the circuit
+
+- VOUT - Comparator output
+
+
 ## Pre-Layout Simulation
 
 ![Screenshot from 2023-02-13 16-08-54](https://user-images.githubusercontent.com/62790565/218639648-1e72332e-9e22-404d-b548-cd3ee67e491d.png)
