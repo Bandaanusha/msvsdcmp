@@ -35,7 +35,6 @@ This comparator consists of
 4. Inverter to act as final buffer before output. The NAND and Inverter improves the slew and provides a little gain.
 5. Positive feedback differential set-up.
 
-This is very similar to set-up on [2] but I have added some modifications to incorporate ENable pin and improve the performance on SCL180 PDK
 
 ## Pre-Layout Simulation
 
