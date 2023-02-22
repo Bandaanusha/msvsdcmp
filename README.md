@@ -25,8 +25,6 @@ A comparator is a device that compares two analog inputs and outputs a digital s
 
 A comparator can be divided into three distinctive pieces – a frontend differential amplifier, amplifier stage and output stage.
 
-A brief literature survey is at [pdf](Docs/Low power current programmable CMOS comparator with hysteresis.pdf)
-
 This comparator consists of
 
 1. Frontend differential amplifier
