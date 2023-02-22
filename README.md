@@ -4,6 +4,10 @@
 
 A comparator is a device that compares two analog inputs and outputs a digital signal indicating which input is larger. So it has two analog input terminals and one binary digital output. When the difference between two analog input signals approach zero, noise on the inputs will cause spurious switching of digital output. This rapid change in output due to noise can be prevented by hysteresis. Hysteresis is switching the output high or low at different input signal levels. In place of one switching point, hysteresis introduces two: one for rising edge, and one for falling edge of voltage or current. The difference between the higher-level trip value (VH) and the lower-level trip value (VL) equals the hysteresis voltage (HYST).
 
+## Specifications
+
+<img width="637" alt="specifications" src="https://user-images.githubusercontent.com/62790565/220716290-ca39649c-4f11-48ef-94c8-724fb423cef6.png">
+
 ## Schematic
 
 ![circuitschm](https://user-images.githubusercontent.com/62790565/218436868-936908e6-c0dc-4b51-8517-f5e12ccae5d3.png)
@@ -77,3 +81,18 @@ Plot graph of INP vs Vout by varying INP through DC sweep and IHyst
 
 #### Ihyst=10uA
 ![Screenshot from 2023-02-22 22-20-55](https://user-images.githubusercontent.com/62790565/220704665-72b18310-98a6-478c-ae52-1ba0a3d8b9cd.png)
+
+## Contributors
+- Banda Anusha
+- Kunal Ghosh
+
+## Acknowledgements
+- Kunal Ghosh, Director, VSD Corp. Pvt. Ltd.
+- Madhav Rao, Professor, IIITB
+- Nanditha Rao, Professor, IIITB
+
+## Contact Information
+- Banda Anusha, Postgraduate Student, International Institute of Information Technology, Bangalore Banda.Anusha@iiitb.ac.in
+- Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. kunalghosh@gmail.com
+- Nanditha Rao, nanditha.rao@iiitb.ac.in
+- Madhav Rao, mr@iiitb.ac.in
