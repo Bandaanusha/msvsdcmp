@@ -49,19 +49,19 @@ VTH= VH - VL
 VTH defines the width of hysteresis. At Ihyst=10uA it has more hysteresis compared with the Ihyst=0.2 or 0.8 uA
 ```
 
-##### Transfer Characteristics
+### Transfer Characteristics
 Plot graph of INP vs Vout by varying INP through DC sweep and IHyst
 
-##### Ihyst=0uA
+#### Ihyst=0uA
 ![Screenshot from 2023-02-22 22-41-04](https://user-images.githubusercontent.com/62790565/220704395-1ccd9469-b95c-485b-a306-f27a227413b9.png)
 
-##### Ihyst=0.2uA
+#### Ihyst=0.2uA
 ![Screenshot from 2023-02-22 22-36-14](https://user-images.githubusercontent.com/62790565/220704477-553c2f64-30fa-4620-a2c6-3fe1357b4fb0.png)
 
 
-##### Ihyst=0.8uA
+#### Ihyst=0.8uA
 ![Screenshot from 2023-02-22 22-22-58](https://user-images.githubusercontent.com/62790565/220704629-47247da4-06d2-470e-b267-143673c21d0d.png)
 
 
-##### Ihyst=10uA
+#### Ihyst=10uA
 ![Screenshot from 2023-02-22 22-20-55](https://user-images.githubusercontent.com/62790565/220704665-72b18310-98a6-478c-ae52-1ba0a3d8b9cd.png)
