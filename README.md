@@ -21,6 +21,21 @@ A comparator is a device that compares two analog inputs and outputs a digital s
 
 - VOUT - Comparator output
 
+### Circuit details
+
+A comparator can be divided into three distinctive pieces – a frontend differential amplifier, amplifier stage and output stage.
+
+A brief literature survey is at [pdf](Docs/Low power current programmable CMOS comparator with hysteresis.pdf)
+
+This comparator consists of
+
+1. Frontend differential amplifier
+2. Amplifier of the output from frontend differential sage
+3. NAND gate to act as buffer as well as incorporate the enable pin
+4. Inverter to act as final buffer before output. The NAND and Inverter improves the slew and provides a little gain.
+5. Positive feedback differential set-up.
+
+This is very similar to set-up on [2] but I have added some modifications to incorporate ENable pin and improve the performance on SCL180 PDK
 
 ## Pre-Layout Simulation
 
