@@ -51,4 +51,16 @@ VTH defines the width of hysteresis. At Ihyst=10uA it has more hysteresis compar
 
 ##### Transfer Characteristics
 
-![Screenshot from 2023-02-14 10-43-27](https://user-images.githubusercontent.com/62790565/218645576-d46e8f6a-e51d-4d47-b94b-badc7aa12149.png)
+
+![Screenshot from 2023-02-22 22-41-04](https://user-images.githubusercontent.com/62790565/220704395-1ccd9469-b95c-485b-a306-f27a227413b9.png)
+
+
+![Screenshot from 2023-02-22 22-36-14](https://user-images.githubusercontent.com/62790565/220704477-553c2f64-30fa-4620-a2c6-3fe1357b4fb0.png)
+
+
+
+![Screenshot from 2023-02-22 22-22-58](https://user-images.githubusercontent.com/62790565/220704629-47247da4-06d2-470e-b267-143673c21d0d.png)
+
+
+
+![Screenshot from 2023-02-22 22-20-55](https://user-images.githubusercontent.com/62790565/220704665-72b18310-98a6-478c-ae52-1ba0a3d8b9cd.png)
