@@ -1,9 +1,14 @@
 # SCL 180nm Comparator IP
 ## Table of Contents
-- [Introduction](https://github.com/Bandaanusha/msvsdcmp#introduction)<br>
-- [Specifications](https://github.com/Bandaanusha/msvsdcmp#specifications)<br>
-- [Schematic](https://github.com/Bandaanusha/msvsdcmp#schematic)<br>
-- [Pre-Layout Simulation](https://github.com/Bandaanusha/msvsdcmp#pre-layout-simulation)<br>
+[Introduction](https://github.com/Bandaanusha/msvsdcmp#introduction)<br>
+[Specifications](https://github.com/Bandaanusha/msvsdcmp#specifications)<br>
+[Schematic](https://github.com/Bandaanusha/msvsdcmp#schematic)<br>
+  * [Inputs to the circuit](https://github.com/Bandaanusha/msvsdcmp#inputs-to-the-circuit)<br>
+  * [Output of the circuit](https://github.com/Bandaanusha/msvsdcmp#output-of-the-circuit)<br>
+  * [Circuit details](https://github.com/Bandaanusha/msvsdcmp#output-of-the-circuit)<br>
+[Pre-Layout Simulation](https://github.com/Bandaanusha/msvsdcmp#pre-layout-simulation)<br>
+  * [Transient Analysis]()<br>
+  * [Transfer Characteristics]()<br>
 
 ## Introduction
 
@@ -44,6 +49,8 @@ This comparator consists of
 
 
 ## Pre-Layout Simulation
+
+### Transient Analysis
 
 ![Screenshot from 2023-02-14 10-24-03](https://user-images.githubusercontent.com/62790565/218642830-1a0673da-47f3-480c-9bae-fd097968492c.png)
 
