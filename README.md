@@ -7,8 +7,8 @@
   * [Output of the circuit](https://github.com/Bandaanusha/msvsdcmp#output-of-the-circuit)<br>
   * [Circuit details](https://github.com/Bandaanusha/msvsdcmp#output-of-the-circuit)<br>
 [Pre-Layout Simulation](https://github.com/Bandaanusha/msvsdcmp#pre-layout-simulation)<br>
-  * [Transient Analysis]()<br>
-  * [Transfer Characteristics]()<br>
+  * [Transient Analysis](https://github.com/Bandaanusha/msvsdcmp#transient-analysis)<br>
+  * [Transfer Characteristics](https://github.com/Bandaanusha/msvsdcmp#transfer-characteristics)<br>
 
 ## Introduction
 
