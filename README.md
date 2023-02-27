@@ -1,4 +1,9 @@
 # SCL 180nm Comparator IP
+## Table of Contents
+- [Introduction](https://github.com/Bandaanusha/msvsdcmp#introduction)<br>
+- [Specifications](https://github.com/Bandaanusha/msvsdcmp#specifications)<br>
+- [Schematic](https://github.com/Bandaanusha/msvsdcmp#schematic)<br>
+- [Pre-Layout Simulation](https://github.com/Bandaanusha/msvsdcmp#pre-layout-simulation)<br>
 
 ## Introduction
 
@@ -45,19 +50,25 @@ This comparator consists of
 
 - At Ihsyst = 0 circuit behave like a comparator with no hysteresis. The output voltage VOUT changes eachtime INP crosses INN
 
+
 <img width="782" alt="hyso" src="https://user-images.githubusercontent.com/62790565/218526854-2409f175-073b-40ef-abc6-7943cacb6c42.png">
 
 - At Ihsyst = 0.2 uA. Observed VTH=2mV
+
 
 <img width="782" alt="hys1" src="https://user-images.githubusercontent.com/62790565/218527001-5f2cab83-3659-481c-879f-e470f9b729e0.png">
 
 - At Ihsyst = 0.8 uA.Observed VTH=10mV
 
+
 <img width="785" alt="hys3" src="https://user-images.githubusercontent.com/62790565/218527085-f6d18840-6cd3-4903-9ec4-27910b2c3bc5.png">
 
 - At Ihsyst = 10 uA.Observed VTH=60mV
 
+
 <img width="782" alt="hys4" src="https://user-images.githubusercontent.com/62790565/218527127-b1167d6c-71f5-4905-b9bc-1c5ec938dd61.png">
+
+
 
 ```
 VTH is hysteresis voltage. It is the difference between the higher-level trip value (VH) and the lower-level trip value (VL)
