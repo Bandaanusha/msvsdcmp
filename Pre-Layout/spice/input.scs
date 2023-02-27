@@ -1,0 +1,70 @@
+// Generated for: spectre
+// Generated on: Feb 27 17:59:19 2023
+// Design library name: anusha_masic_project
+// Design cell name: msvsdcmp
+// Design view name: schematic
+simulator lang=spectre
+global 0
+include "/home/anusha/scl_pdk_v2/design_kit/models/hspice/ts18sl_scl.lib" section=tt_18
+
+// Library name: anusha_masic_project
+// Cell name: msvsdcmp
+// View name: schematic
+M12 (VOUT VOUT2 VCC VCC) p18 w=3.36 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+M11 (VOUT2 VOUT1 VCC VCC) p18 w=0.42 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+M10 (VOUT2 EN VCC VCC) p18 w=3.36 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+M9 (VOUT1 VDIFF VCC VCC) p18 w=5.04 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+M1 (VDIFF net1 VCC VCC) p18 w=0.84 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+M0 (VCC net1 net1 VCC) p18 w=0.84 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+M16 (VOUT VOUT2 0 0) n18 w=1.68 l=0.18 as=0.1984 ad=0.1984 ps=1.88 pd=1.88 \
+        m=1
+M15 (net6 EN 0 0) n18 w=1.68 l=0.18 as=0.1984 ad=0.1984 ps=1.88 pd=1.88 \
+        m=1
+M14 (VOUT2 VOUT1 net6 0) n18 w=1.68 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+M13 (VOUT1 VCC 0 0) n18 w=0.42 l=0.18 as=0.1984 ad=0.1984 ps=1.88 pd=1.88 \
+        m=1
+M8 (net5 VOUT1 VDIFF 0) n18 w=1.68 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+M7 (net1 VOUT2 net5 0) n18 w=1.68 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+M6 (net5 net4 0 0) n18 w=0.42 l=0.18 as=0.1984 ad=0.1984 ps=1.88 pd=1.88 \
+        m=1
+M5 (0 net4 net4 0) n18 w=0.42 l=0.18 as=0.1984 ad=0.1984 ps=1.88 pd=1.88 \
+        m=1
+M4 (net3 VCC 0 0) n18 w=0.42 l=0.36 as=0.1984 ad=0.1984 ps=1.88 pd=1.88 \
+        m=1
+M3 (net3 INP VDIFF 0) n18 w=0.84 l=0.18 as=0.1984 ad=0.1984 ps=1.88 \
+        pd=1.88 m=1
+M2 (net1 INN net3 0) n18 w=0.84 l=0.18 as=0.1984 ad=0.1984 ps=1.88 pd=1.88 \
+        m=1
+V1 (INN 0) vsource dc=1.23 type=dc
+V0 (VCC 0) vsource dc=4.5 type=dc
+R0 (VOUT 0) resistor r=10M c=0
+V3 (EN 0) vsource type=pwl wave=[ 0 3.3 80u 3.3 81u 0 100u 0 ]
+V2 (INP 0) vsource type=pwl pwlperiod=20u wave=[ 0 800m 10u 1.8 20u 800m \
+        30u 1.8 40u 800m 50u 1.8 60u 800m 70u 1.8 80u 800m 90u 1.8 100u \
+        800m ]
+I11 (VCC net4) isource type=pwl wave=[ 0 0 20u 0 21u 200n 40u 200n 41u \
+        800n 60u 800n 61u 10u 100u 10u ]
+simulatorOptions options psfversion="1.4.0" reltol=1e-3 vabstol=1e-6 \
+    iabstol=1e-12 temp=27 tnom=27 scalem=1.0 scale=1.0e-6 gmin=1e-12 \
+    rforce=1 maxnotes=5 maxwarns=5 digits=5 cols=80 pivrel=1e-3 \
+    sensfile="../psf/sens.output" checklimitdest=psf 
+tran tran stop=100u write="spectre.ic" writefinal="spectre.fc" \
+    annotate=status maxiters=5 
+finalTimeOP info what=oppoint where=rawfile
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts where=rawfile
+save INN INP VOUT EN 
+saveOptions options save=allpub
