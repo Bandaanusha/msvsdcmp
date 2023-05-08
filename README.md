@@ -101,7 +101,18 @@ Plot graph of INP vs Vout by varying INP through DC sweep and IHyst
 ### Ihyst=10uA
 ![Screenshot from 2023-02-22 22-20-55](https://user-images.githubusercontent.com/62790565/220704665-72b18310-98a6-478c-ae52-1ba0a3d8b9cd.png)
 
+## Layout 
+
+![Screenshot from 2023-05-08 23-08-39](https://user-images.githubusercontent.com/62790565/236894315-317aab72-b3dc-463a-975c-4ef9c1a47592.png)
+
+![Screenshot from 2023-05-08 23-13-46](https://user-images.githubusercontent.com/62790565/236894390-c51c1404-ae8a-4912-bce0-fbab9b5dd233.png)
+
+![Screenshot from 2023-05-08 23-13-54](https://user-images.githubusercontent.com/62790565/236894401-a4bbf0c7-d55f-4898-b540-7d7407b45923.png)
+
+![Screenshot from 2023-05-08 23-14-00](https://user-images.githubusercontent.com/62790565/236894411-21ba96e3-e72b-4293-a2b2-6f6308fc9f97.png)
+
 ## Contributors
+
 - Banda Anusha
 - Kunal Ghosh
 
