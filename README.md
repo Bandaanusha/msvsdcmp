@@ -10,11 +10,11 @@
 - [Pre-Layout Simulation](https://github.com/Bandaanusha/msvsdcmp#pre-layout-simulation)<br>
   - [Transient Analysis](https://github.com/Bandaanusha/msvsdcmp#transient-analysis)<br>
   - [Transfer Characteristics](https://github.com/Bandaanusha/msvsdcmp#transfer-characteristics)<br>
-- [Layout]()<br>
-- [Future Work]()<br>
-- [Contributors]()<br>
-- [Acknowledgements]()<br>
-- [Contact Information]()<br>
+- [Layout](https://github.com/Bandaanusha/msvsdcmp#layout)<br>
+- [Future Work](https://github.com/Bandaanusha/msvsdcmp#future-work)<br>
+- [Contributors](https://github.com/Bandaanusha/msvsdcmp#contributors)<br>
+- [Acknowledgements](https://github.com/Bandaanusha/msvsdcmp#acknowledgements)<br>
+- [Contact Information](https://github.com/Bandaanusha/msvsdcmp#contact-information)<br>
 ## Introduction
 
 A comparator is a device that compares two analog inputs and outputs a digital signal indicating which input is larger. So it has two analog input terminals and one binary digital output. When the difference between two analog input signals approach zero, noise on the inputs will cause spurious switching of digital output. This rapid change in output due to noise can be prevented by hysteresis. Hysteresis is switching the output high or low at different input signal levels. In place of one switching point, hysteresis introduces two: one for rising edge, and one for falling edge of voltage or current. The difference between the higher-level trip value (VH) and the lower-level trip value (VL) equals the hysteresis voltage (HYST).
