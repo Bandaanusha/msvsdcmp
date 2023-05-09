@@ -117,7 +117,7 @@ Below is the layout of comparator created in Cadence Virtuoso using SCL180 pdk
 ![Screenshot from 2023-05-08 23-14-00](https://user-images.githubusercontent.com/62790565/236894411-21ba96e3-e72b-4293-a2b2-6f6308fc9f97.png)
 
 ## Future Work
-Post-Layout simulations pending due to PDK integration issues.
+Post-Layout simulations are pending due to PDK integration issues.
 
 ## Contributors
 
